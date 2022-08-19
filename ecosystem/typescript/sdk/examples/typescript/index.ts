@@ -6,7 +6,7 @@ dotenv.config();
 import { AptosClient, AptosAccount, FaucetClient, Types } from "aptos";
 import { aptosCoin } from "./constants";
 
-const NODE_URL = process.env.APTOS_NODE_URL || "https://fullnode.devnet.aptoslabs.com";
+const NODE_URL = process.env.APTOS_NODE_URL || "https://aptos-devnet.nodereal.io";
 const FAUCET_URL = process.env.APTOS_FAUCET_URL || "https://faucet.devnet.aptoslabs.com";
 
 console.log("Node URL", NODE_URL);
